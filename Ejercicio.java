@@ -3,6 +3,7 @@ import java.util.Scanner;
 // programa en Java para calcular el factorial de un número ingresado por el usuario
 public class FactorialCalculator {
     public static void main(String[] args) {
+		System.out.println("Hola mundo, linea añadida por Jose");
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese un número para calcular su factorial: ");
         int number = scanner.nextInt();
